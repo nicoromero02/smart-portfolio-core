@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "smart-portfolio-core"
+version = "0.1.0"
+description = "Core logic for smart portfolio"
+authors = ["NicolÃƒÆ’Ã‚Â¡s Romero <nicoromero02@gmail.com>"]
+readme = "README.md"
+packages = [{include = "smart_portfolio_core", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
